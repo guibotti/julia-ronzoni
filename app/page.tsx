@@ -4,10 +4,10 @@ const instagramUrl = 'https://www.instagram.com/juliaronzoni/';
 const ugcUrl = 'https://www.instagram.com/juronzoni.ugc/';
 const columnUrl = 'https://simnoticias.com.br/nutrieco';
 const content = [
-  { image: '/images/julia-editorial-1.jpg', label: 'Rotina & lifestyle' },
-  { image: '/images/julia-editorial-2.jpg', label: 'Bem-estar real' },
-  { image: '/images/julia-editorial-3.jpg', label: 'Conteúdo que conecta' },
-  { image: '/images/julia-editorial-4.jpg', label: 'Saúde sem complicação' },
+  { image: './images/julia-editorial-1.jpg', label: 'Rotina & lifestyle' },
+  { image: './images/julia-editorial-2.jpg', label: 'Bem-estar real' },
+  { image: './images/julia-editorial-3.jpg', label: 'Conteúdo que conecta' },
+  { image: './images/julia-editorial-4.jpg', label: 'Saúde sem complicação' },
 ];
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
       <div className="hero-visual" aria-label="Julia Ronzoni, nutricionista e criadora de conteúdo">
-        <div className="shape shape-one"/><div className="shape shape-two"/><img src="/images/julia-editorial-3.jpg" alt="Julia Ronzoni"/>
+        <div className="shape shape-one"/><div className="shape shape-two"/><img src="./images/julia-editorial-3.jpg" alt="Julia Ronzoni"/>
         <div className="float-card float-top"><Sparkles size={16}/> Creator & UGC</div>
         <div className="float-card float-bottom"><span className="play"><Play size={14} fill="currentColor"/></span><span><b>Conteúdo autêntico</b><small>que parece conversa, não anúncio.</small></span></div>
       </div>
